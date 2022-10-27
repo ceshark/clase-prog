@@ -1,0 +1,17 @@
+public class cocheEjercicio {
+    public static void main(String[] args) {
+        puerta Aumento = new puerta();
+
+        Aumento.Aumentar();
+        System.out.println("numero de puertas");
+        System.out.println(Aumento.numeroPuertas);
+    }
+}
+
+class puerta{
+    public int numeroPuertas =1;
+
+    public void Aumentar (){
+        this.numeroPuertas++;
+    }
+}
